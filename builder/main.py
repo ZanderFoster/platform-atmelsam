@@ -223,7 +223,7 @@ elif upload_protocol == "sam-ba":
         env.Append(
             UPLOADERFLAGS=[
             "-U", "--offset", board.get("upload.offset_address")])
-    elif board.get("build.core") == "sss-scb":
+    elif board.get("build.core") == "sss_scb":
         # special flags for the latest bossac tool
         env.Append(
             UPLOADERFLAGS=[

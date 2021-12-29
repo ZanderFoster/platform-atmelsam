@@ -3,7 +3,7 @@
     "arduino": {
         "ldscript": "flash_with_bootloader.ld"
     },
-    "core": "sss-scb",
+    "core": "sss_scb",
     "cpu": "cortex-m0plus",
     "extra_flags": "-DARDUINO_SAMD_ZERO -D__SAMD21G17A__",
     "f_cpu": "48000000L",
@@ -19,7 +19,7 @@
     ],
     "mcu": "samd21g17a",
     "usb_product": "SimSpeedShop SCB",
-    "variant": "sss-scb"
+    "variant": "sss_scb"
   },
   "debug": {
     "jlink_device": "ATSAMD21G17",
