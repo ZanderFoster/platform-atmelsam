@@ -47,9 +47,6 @@ BUILD_CORE = "arduino"
 if VENDOR_CORE == "sparkfun" and board.get("build.mcu", "").startswith("samd51"):
     BUILD_CORE = "arduino51"
 
-if VENDOR_CORE == "sss-scb":
-    BUILD_CORE = "sss-scb"
-
 env.Append(
     CPPDEFINES=[
         "ARDUINO_ARCH_SAMD"
