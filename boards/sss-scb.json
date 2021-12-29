@@ -19,7 +19,7 @@
     ],
     "mcu": "samd21g17a",
     "usb_product": "SimSpeedShop SCB",
-    "variant": "scb_r0"
+    "variant": "sss-scb"
   },
   "debug": {
     "jlink_device": "ATSAMD21G17",
@@ -52,5 +52,5 @@
     "wait_for_upload_port": true
   },
   "url": "https://simspeedshop.com",
-  "vendor": "SimSpeedShop - Zander Foster"
+  "vendor": "SimSpeedShop"
 }
